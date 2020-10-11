@@ -25,15 +25,16 @@
   <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
 </div>
 
-<!-- Tabs -->
- <!-- Load an icon library -->
+
+<!-- Load an icon library -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<!-- Tabs -->
 <div class="navbar">
   <a class="active" href="#Home"><i class="fa fa-fw fa-Home"></i>Home</a>
-  <a href="#Artwork"><i class="fa fa-fw fa-Artwork"></i> Artwork</a>
-  <a href="#Support"><i class="fa fa-fw fa-Support"></i> Support</a>
-  <a href="#Contact"><i class="fa fa-fw fa-Contact"></i> Contact</a>
+  <a href="#Artwork"><i class="fa fa-fw fa-Artwork"></i>Artwork</a>
+  <a href="#Support"><i class="fa fa-fw fa-Support"></i>Support</a>
+  <a href="#Contact"><i class="fa fa-fw fa-Contact"></i>Contact</a>
 </div>
 
 <!-- Start of the info within tabs -->
@@ -45,6 +46,19 @@
   </div>
   
   <div id="Artwork" class="tab-pane fade">
+  <h3>Artwork</h3>
+  <p>This will be the placement for the artwork display</p>
+  </div>
+
+  <div id="Support" class="tab-pane fade">
+  <h4>Support</h4>
+  <p>We will put multiple links to different areas that can reach out to you; maybe a donate link?</p>
+  </div>
+
+  <div id="Contact" class="tab-pane fade">
+  <h5>Contact</h5>
+  <p>This will be email contact information and phone number, however much is needed</p>
+  </div> 
 
 
 </body>
